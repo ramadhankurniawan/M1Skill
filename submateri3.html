@@ -88,22 +88,77 @@
         </div><!-- End Section Title -->
   
         <div class="container">
-  
           <div class="row gy-4">
-            <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/about.png" class="img-fluid" alt="">
-              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
-            </div>
-            <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-              <h3>Media ini memiliki lima menu utama pada navbar, yaitu Beranda, Panduan, Materi, Evaluasi, dan Tentang.</h3>
+            <div class="content" data-aos="fade-up" data-aos-delay="200"> 
+              <h3>1. Pengertian Algoritma</h3>
+              <p align="justify">Algoritma adalah langkah-langkah atau instruksi yang harus dilakukan untuk menyelesaikan suatu masalah. Algoritma merupakan dasar dari pemrograman komputer. Algoritma merupakan langkah-langkah yang harus dilakukan untuk menyelesaikan suatu masalah. Algoritma merupakan dasar dari pemrograman komputer. Algoritma merupakan langkah-langkah yang harus dilakukan untuk menyelesaikan suatu masalah. Algoritma merupakan dasar dari pemrograman komputer.</p>
+              <p> <b>Ciri Ciri Algoritma :</b></p>
               <ul>
-                <li><i class="bi bi-house"></i> <span>Halaman Beranda adalah tampilan awal dari situs ini. Di sini, pengguna dapat menemukan gambaran umum tentang situs. Beranda menyediakan navigasi mudah ke berbagai fitur dan bagian penting terkait media pembelajaran.</span></li>
-                <li><i class="bi bi-lightbulb"></i> <span>Pada menu Panduan, pengguna dapat melihat tata cara penggunaan serta fitur utama dari website M1Skill.</span></li>
-                <li><i class="bi bi-list-task"></i> <span>Pada menu Materi, pengguna dapat memilih dari berbagai topik pembelajaran yang tersedia. Setiap topik disajikan dalam bentuk interaktif dan menarik untuk membantu pengguna memahami konsep dengan lebih baik. Terdapat tiga pilihan materi yang bisa dipilih sesuai kebutuhan dan minat pengguna, masing-masing dengan konten yang mendalam dan relevan. Di halaman ini, terdapat fitur forum diskusi yang terletak di ujung kanan bawah. Fitur ini memungkinkan pengguna untuk berdiskusi, bertanya, atau berbagi pendapat tentang materi yang dipelajari, sehingga mereka dapat saling membantu dalam memahami topik dengan lebih baik.</span></li>
-                <li><i class="bi bi-clipboard"></i> <span>Menu Evaluasi memungkinkan pengguna untuk menguji pemahaman mereka setelah mempelajari materi. Evaluasi ini disusun dengan format soal pilihan ganda, yang bertujuan untuk mengukur seberapa baik pengguna telah menyerap informasi yang disajikan.</span></li>
-                <li><i class="bi bi-info-circle"></i> <span>Menu Tentang berisi informasi mengenai situs, dan pengembang dari media pembelajaran ini. Pengguna dapat mempelajari lebih lanjut mengenai gambaran umum situs, tim yang terlibat, dan tujuan dari program pembelajaran ini dalam mendukung pendidikan yang lebih baik.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Terstruktur → Algoritma harus memiliki langkah-langkah yang jelas dan berurutan.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Jelas & Tepat → Setiap langkah harus memiliki makna yang tidak ambigu.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Berhingga → Algoritma harus memiliki titik akhir atau penyelesaian.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Efisien → Langkah-langkahnya tidak boleh terlalu rumit atau membuang sumber daya secara tidak perlu.</span></li>
               </ul>
-            </div>
+              <br>
+              <p> <b>Contoh Sederhana Algoritma :</b></p>
+              <p> Algoritma untuk membuat teh manis:</p>
+              <ul>
+                <li><span>A.	Rebus air hingga mendidih.</span></li>
+                <li><span>B.	Masukkan teh ke dalam gelas.</span></li>
+                <li><span>C.  Tuangkan air panas ke dalam gelas.</span></li>
+                <li><span>D.	Tambahkan gula sesuai selera.</span></li>
+                <li><span>E.	Aduk hingga merata.</span></li>
+                <li><span>F.	Sajikan dan nikmati.</span></li>
+            </ul>
+              </div>
+                <div class="content" data-aos="fade-up" data-aos-delay="200"> 
+            <h3>2. Pemrograman Dasar</h3>
+            <p align="justify">Pemrograman adalah proses menulis, menguji, dan memelihara kode yang membentuk suatu program komputer berdasarkan algoritma yang telah dirancang. Bahasa pemrograman digunakan sebagai alat untuk mengubah algoritma menjadi instruksi yang dapat dipahami oleh komputer.</p>
+            <p> <b>Ciri Ciri Algoritma :</b></p>
+            <ul>
+                <li><i class="bi bi-check2-all"></i> <span>Variabel dan Tipe Data → Untuk menyimpan nilai seperti angka, teks, atau nilai boolean.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Operator → Digunakan untuk operasi matematika dan logika.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Percabangan (Conditional Statements) → Seperti if-else, untuk menentukan jalannya program berdasarkan kondisi tertentu.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Perulangan (Looping) → Seperti for, while, untuk menjalankan instruksi berulang kali.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Fungsi (Function/Procedure) → Untuk mengorganisir kode agar lebih modular dan dapat digunakan kembali.</span></li>
+            </ul>
+            <br>
+            <p> <b>Contoh program sederhana dalam Python:</b></p>
+<pre>python
+CopyEdit
+# Program untuk menghitung luas persegi panjang
+panjang = float(input("Masukkan panjang: "))
+lebar = float(input("Masukkan lebar: "))
+              
+luas = panjang * lebar
+              
+print(f"Luas persegi panjang adalah {luas}")
+</pre>
+        </div>
+
+          <div class="content" data-aos="fade-up" data-aos-delay="200"> 
+            <h3>3. Hubungan Algoritma dan Pemrograman</h3>
+            <p align="justify">Algoritma adalah konsep dasar dalam pemrograman. Sebelum menulis kode, seorang programmer harus merancang algoritma terlebih dahulu agar program dapat berjalan dengan baik dan efisien. Pemrograman adalah implementasi dari algoritma menggunakan bahasa pemrograman.</p>
+          </div>
+        </div>
+        <br>
+
+        <div class="content" data-aos="fade-up" data-aos-delay="200"> 
+          <h3>4. Bahasa Pemrograman Populer</h3>
+          <p align="justify">Beberapa bahasa pemrograman yang sering digunakan antara lain:</p>
+          <ul>
+            <li><i class="bi bi-check2-all"></i> <span>Python → Cocok untuk pemula, AI, data science, dan web development.</span></li>
+            <li><i class="bi bi-check2-all"></i> <span>C/C++ → Banyak digunakan untuk sistem operasi dan game development.</span></li>
+            <li><i class="bi bi-check2-all"></i> <span>Java → Digunakan untuk aplikasi berbasis Android dan sistem enterprise.</span></li>
+            <li><i class="bi bi-check2-all"></i> <span>JavaScript → Dipakai untuk pengembangan website interaktif.</span></li>
+        </ul>
+        <p align="justify"><B>Kesimpulan</B></p>
+        <p>Algoritma dan pemrograman merupakan dasar dalam dunia komputer. Algoritma menentukan cara menyelesaikan masalah, sedangkan pemrograman adalah implementasinya dalam bentuk kode yang dapat dijalankan oleh komputer.</p>
+
+        </div>
+      </div>
+
+      </div>
           </div>
   
         </div>
